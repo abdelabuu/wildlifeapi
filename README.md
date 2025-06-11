@@ -1,20 +1,31 @@
 # Wildlife API
 
-This is a Spring Boot RESTful API for managing animals in a gallery.
+A Spring Boot web application for managing a simple wildlife gallery.  
+Users can view a list of animals, see details, and add new animals via a web form.
 
-## Endpoints
+## Table of Contents
 
-- `GET /animals` – Get all animals
-- `GET /animals/{id}` – Get one animal by ID
-- `POST /animals` – Add new animal
-- `PUT /animals/{id}` – Update animal
-- `DELETE /animals/{id}` – Delete animal
-- `GET /animals/search?name=zebra` – Search by name
-- `GET /animals/species/zebra` – Search by species
+- [Prerequisites](#prerequisites)  
+- [Building & Running](#building--running)  
+- [Endpoints](#endpoints)  
+- [Example Requests](#example-requests)  
+- [Web UI Flows](#web-ui-flows)  
+- [Project Structure](#project-structure)  
+- [License](#license)  
 
-## Example Attributes
-- `name`: "Zebra"
-- `description`: "Striped herbivore native to Africa."
-- `species`: "Equus zebra"
-- `imageUrl`: "zebra.jpg"
-- `activeDate`: "2024-04-30"
+---
+
+## Prerequisites
+
+- Java 17 or later  
+- Maven 3.6+  
+- (Optional) Git  
+
+---
+
+## Building & Running
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/abdelabuu/wildlifeapi.git
+   cd wildlifeapi
